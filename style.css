@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.mainCont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: hsl(47, 88%, 63%);
+}
+.cardCont {
+  width: 320px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 8px 8px;
+}
+.imgCont {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#cardImg {
+  width: 100%;
+  border-radius: 15px;
+}
+.smallBox {
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  width: 75px;
+  padding: 7px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.smallHead {
+  margin-bottom: 20px;
+}
+.BigHead {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 23px;
+}
+.textBody {
+  color: grey;
+  margin-bottom: 20px;
+}
+.introBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#introImg {
+  width: 30px;
+  margin-right: 10px;
+}
+.introName {
+  font-weight: 800;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
